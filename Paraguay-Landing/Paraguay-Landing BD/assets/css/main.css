@@ -1,0 +1,151 @@
+/*------------------------------------------------------------------------
+# Free Splash HTML Templates - Feb 3, 2018
+# ------------------------------------------------------------------------
+# Designed & coded by Awe7 Team
+# Websites:  http://www.awe7.com -  Email: info@awe7.com
+--------------------------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 16px;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #787878;
+	background-color: #fff;
+	background-image: url("https://cymetria.com/mitic-paraguay/assets/images/fondo_azul-min.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.hero {
+	/* Altura mínima para un buen efecto visual */
+	min-height: 90vh;
+	/* Imagen de fondo */
+	background-image: url("https://as2.ftcdn.net/v2/jpg/04/29/59/47/1000_F_429594706_fhCaTdbMeNF0oxfyqe8hf06DA9SE5GRb.jpg");
+	/* Asegura que la imagen cubra el espacio y se centre correctamente */
+	background-size: cover;
+	background-position: center;
+	/* Clave para el efecto parallax */
+	background-attachment: fixed;
+	/* Opcional: Añade un color de fondo por si la imagen tarda en cargar */
+	background-color: #000;
+}
+
+.cymetria-logo {
+	width: 65%;
+	height: 100%;
+}
+
+.navbar-end img {
+	width: 65%;
+	height: 100%;
+	margin-right: 50px;
+}
+
+.navbar a {
+	color: white;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn.btn-red {
+	background-color: #ea2427;
+	color: white;
+	border: none;
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	width: auto;
+	height: 62px;
+	font-size: 18px;
+}
+
+.decoration {
+	text-decoration: underline;
+}
+
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* Proporción 16:9 */
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-responsive iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.email-img {
+	position: fixed;
+	bottom: 108px;
+	right: 18px;
+	z-index: 999;
+	width: 60px;
+	height: auto;
+}
+
+.whatsApp-img {
+	position: fixed;
+	bottom: 32px;
+	right: 18px;
+	z-index: 999;
+	width: 60px;
+	height: auto;
+}
+
+.card-header {
+	background-color: #ea2427;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px dotted white;
+	margin-top: 0;
+}
+
+.dates {
+	font-weight: bold;
+}
+
+.paragraph {
+	width: 200px;
+	height: 100px;
+}
+
+.msg {
+	font-size: 12px;
+	text-align: end;
+}
+
+section[id]{
+	scroll-margin-top: 100px;
+}
+
